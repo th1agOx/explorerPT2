@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.page {
+    border: 1px solid red;
+    width: 1000px;
+    margin: 65px auto 0;            
+}
+
+header {
+    display: flex; /*elementos ao lado*/
+    justify-content: space-between; /*posição entre os elementos em flex*/
+    align-items: center;  /*posição dos elementos secundarios na mesma linha do main*/
+
+    margin: auto auto 58px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: stretch;*/
+}
+
+/*section {
+    display: flex;
+    flex-direction: column;
+}*/
+
+.balls {
+    position: fixed ;
+    bottom:0 ;
+    right: 0;
+}
+
+
+
+
+
+
+/*  
+    margin é o espaçamento que ocorre fora do body, espaçando o body por inteiro
+    padding é o espaçamento de elementos que ocorre dentro do body, espaçando os elementos internos
+    que estão no body 
+
+    - Display flex vai deixar os elementos um ao redor do outro, 
+    sua direção por padrão já é para a direita ( row ) 
+    então para posiciona-los da maneira correta usa-se justify-content 
+    - Gap é usado para espaçamentos quando elementos estão no Display flex.
+    - Flex Direction centraliza seus elementos com o elemento principal, o eixo main
+    
+    List style para listas, Text stile para links
+*/

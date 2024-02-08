@@ -8,7 +8,7 @@ body {
     margin: 65px auto 0;            
 }
 
-header {
+nav {
     display: flex; /*elementos ao lado*/
     justify-content: space-between; /*posição entre os elementos em flex*/
     align-items: center;  /*posição dos elementos secundarios na mesma linha do main*/
@@ -19,9 +19,14 @@ header {
 ul {
     display: flex;
     list-style: none;
+
     gap: 48px;
     margin: 0;
     padding: 0;
+}
+
+ul a {
+    text-decoration: none; 
 }
 
 main {

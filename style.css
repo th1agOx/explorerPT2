@@ -5,7 +5,6 @@ body {
 }
 
 .page {
-    border: 1px solid red;
     width: 1000px;
     margin: 65px auto 0;            
 }
@@ -41,13 +40,10 @@ ul a {
 main {
     display: flex;
     justify-content: space-between;
-    /*align-items: stretch;*/
-}
+    align-items: center;
 
-/*section {
-    display: flex;
-    flex-direction: column;
-}*/
+    margin-bottom: 82px;
+}
 
 h1 {
     font-family: 'Mulish', sans-serif;
@@ -81,6 +77,12 @@ main button {
     text-transform: uppercase; /* texto maiusculo */
 
     background-color: #69B99D;
+}
+
+footer {
+    text-align: center;
+
+    margin: auto auto 30px;
 }
 
 footer a {

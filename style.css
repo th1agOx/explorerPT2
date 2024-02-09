@@ -2,11 +2,16 @@ body {
     margin: 0;
 
     font-family: 'Open Sans', sans-serif;
+
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.5) 100%);
+
+    min-height: 100vh;  /* no minimo fazer com que toda autura do meu dispositivo seja visivel */
 }
 
 .page {
     width: 1000px;
-    margin: 65px auto 0;            
+    margin: 0 auto ;
+    padding-top: 65px;            
 }
 
 nav {
@@ -30,11 +35,13 @@ ul {
 
 ul li a:hover {
     font-weight: 700;
+    opacity: 1;
 }
 
 ul a {
     text-decoration: none; 
     color: #1F1534;
+    opacity: 0.5;
 }
 
 main {
@@ -105,10 +112,13 @@ footer a {
     line-height: 28px;
 
     color: black;
+
+    opacity: 0.6;
 }
 
 footer a:hover {
     font-weight: 700;
+    opacity: 1;
 }
 
 a span {
@@ -130,6 +140,7 @@ a span {
     margin é o espaçamento que ocorre fora do body, espaçando o body por inteiro
     padding é o espaçamento de elementos que ocorre dentro do body, espaçando os elementos internos
     que estão no body 
+    O padding preenche o margin empurra
 
     - Display flex vai deixar os elementos um ao redor do outro, 
     sua direção por padrão já é para a direita ( row ) 
@@ -141,4 +152,8 @@ a span {
 
     Hover é uma pseudo classe, que ao passar o mouse em determinado item ganha um estilo 
     como descanço de mouse.
+
+    Background linear gradient é uma função, que recebe uma segunda função o rgba alfa
+    sendo o ultimo atributo a transparencia
+    Site -> background linear gradiente css generator
 */

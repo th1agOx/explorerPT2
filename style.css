@@ -29,6 +29,10 @@ ul {
     font-family: 'Mulish', sans-serif;
 }
 
+ul li a:hover {
+    font-weight: 700;
+}
+
 ul a {
     text-decoration: none; 
     color: #1F1534;
@@ -49,6 +53,9 @@ h1 {
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
     line-height: 56px;
+    font-size: 49px;
+
+    width: 489px;
 
     color: black;
 }
@@ -59,6 +66,11 @@ h1 span{
 }
 
 main p {
+    width: 438px;
+    font-size: 14px;
+    line-height: 28px;
+    
+    margin-bottom: 40px;
 
     color: #7D7987;
 }
@@ -66,12 +78,17 @@ main p {
 main button {
     font-family: 'DM Sans', sans-serif;
     color: #F9F9F9;
+    text-transform: uppercase; /* texto maiusculo */
 
     background-color: #69B99D;
 }
 
 footer a {
     text-decoration: none;
+
+    font-size: 14px;
+    line-height: 28px;
+
     color: black;
 }
 
@@ -102,4 +119,7 @@ a span {
     - Flex Direction centraliza seus elementos com o elemento principal, o eixo main
     
     List style para listas, Text stile para links
+
+    Hover é uma pseudo classe, que ao passar o mouse em determinado item ganha um estilo 
+    como descanço de mouse.
 */

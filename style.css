@@ -61,7 +61,7 @@ h1 span{
     color: #89C5CC;
 }
 
-main p {
+section p {
     width: 438px;
     font-size: 14px;
     line-height: 28px;
@@ -71,12 +71,25 @@ main p {
     color: #7D7987;
 }
 
-main button {
+section button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: none;
+    border-radius: 4px;
+    padding: 14px 32px ;
+    gap: 10px;
+    
     font-family: 'DM Sans', sans-serif;
     color: #F9F9F9;
-    text-transform: uppercase; /* texto maiusculo */
-
     background-color: #69B99D;
+
+    cursor: pointer;    /* mãozinha do mouse apontando que é algo clicavel */
+}
+
+section button:hover {
+    background:  #599a83;
 }
 
 footer {
@@ -92,6 +105,10 @@ footer a {
     line-height: 28px;
 
     color: black;
+}
+
+footer a:hover {
+    font-weight: 700;
 }
 
 a span {
